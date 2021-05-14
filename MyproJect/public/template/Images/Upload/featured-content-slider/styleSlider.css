@@ -1,0 +1,22 @@
+#featured { width: 100%; margin-top: 10px; position: relative; height: 252px; overflow: hidden; background: #fff; }
+#featured ul.ui-tabs-nav { width: 30%; height: 252px; list-style: none outside none; margin: 0; overflow-x: hidden; overflow-y: auto; padding: 0; position: absolute; right: 0; top: 0; }
+#featured ul.ui-tabs-nav li { color: #666; font-size: 12px; padding: 1px 0 1px 18px; vertical-align:middle}
+#featured ul.ui-tabs-nav li img { background: none repeat scroll 0 0 #fff; border: 1px solid #eee; float: left; margin: 2px 5px; }
+#featured ul.ui-tabs-nav li span { font-size: 13px; font-family: Verdana; line-height: 18px; }
+#featured li.ui-tabs-nav-item a { display: block; height: 82px; text-decoration: none; color: #333; background: #fff; line-height: 20px; outline: none;padding-left: 4px }
+#featured li.ui-tabs-nav-item a:hover { background: #f2f2f2; }
+/*#featured li.ui-tabs-selected, #featured li.ui-tabs-active { background: url('images/selected-item.gif') top left no-repeat; }*/
+#featured ul.ui-tabs-nav li.ui-tabs-selected a, 
+#featured ul.ui-tabs-nav li.ui-tabs-active a { 
+	background: #3b9241; color: #fff; 
+}
+#featured .ui-tabs-panel { width: 68%; height: 252px; position: relative; overflow: hidden; }
+#featured .ui-tabs-panel .info { position: absolute; bottom: 0; left: 0; height: 70px; background: url('images/transparent-bg.png'); width:100%; }
+#featured .ui-tabs-panel .info a.hideshow { position: absolute; font-size: 11px; font-family: Verdana; color: #f0f0f0; right: 10px; top: -20px; line-height: 20px; margin: 0; outline: none; background: #333; }
+#featured .ui-tabs-panel img {position: absolute; bottom: 0; left: 0; width:100%;}
+#featured .info h2 { font-size: 1.5em; color: #fff; padding: 5px; margin: 0; font-weight: normal; overflow: hidden; }
+#featured .info p { color: #f0f0f0; font-family: Verdana; font-size: 13px; line-height: 14px; margin: 0 5px 4px; }
+#featured .info a { text-decoration: none; color: #fff; }
+#featured .info a:hover { text-decoration: underline; }
+#featured .ui-tabs-hide { display: none; }
+

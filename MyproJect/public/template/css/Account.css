@@ -1,0 +1,30 @@
+.panel-body{
+	border: 1px solid black;
+	width: 400px;
+	height: 550px;
+}
+.Text{
+	font-family:  "Times New Roman";
+
+}
+.button button{
+	width: 265px;
+	font-size: 15px;
+}
+.texttitle{
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+.text{
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.textbir{
+	margin-left: 15px;
+}
+.buttonAccount{
+	margin-top: 20px;
+}
+.birthday{
+	margin-left: 15px;
+}
